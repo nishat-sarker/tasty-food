@@ -90,6 +90,9 @@ a{
  Banner section css style code end here 
  *********************/
 
+/*********************
+About section css style code start from here 
+ *********************/
  .about-area{
     background-image: url(../imgs/Frame\ 58.jpg);
     width: 100%;
@@ -116,20 +119,89 @@ a{
     text-align: justify;
     margin-bottom: 90px; 
 }
+/*********************
+Recipies section css style code end here 
+ *********************/
 
+/*********************
+Recipies section css style code start from here 
+ *********************/
 #recipies-area{
     padding: 60px 0px;
 }
-
+.recipies-header{
+    text-align: center;
+}
+.recipies-header h2{
+    font-size: 34px;
+    color: #575757;
+}
+.recipies-header p{
+    color: #575757;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 40px;
+}
 .recipies-item{
     display: flex;
     justify-content: space-between;
 }
 .recipies-item .recipies-item-1, .recipies-item-2 , .recipies-item-3{
     width: 25%;
-    
     padding: 10px;
     padding: 10px;
+    text-align: justify;
     border-radius: 15px;
     box-shadow: 2px 4px 19px -5px rgb(92 92 92);
 }
+/*********************
+Recipies section css style code end here 
+ *********************/
+
+/*********************
+social-media section css style code start here 
+ *********************/
+#social-media{
+    padding: 40px 0px;
+    text-align: center;
+}
+#social-media h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+#social-media p{
+    font-weight: 700;
+    color: #575757;
+}
+.social-counter{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 2px 4px 19px -5px rgb(92 92 92);
+}
+/*********************
+social-media section css style code end here 
+ *********************/
+
+/**********************
+ Footer section css code start from here 
+ **********************/
+#footer{
+    margin-top: 40px;
+    padding: 40px 0px 60px 0px;
+    background-color: black;
+    text-align: center;
+} 
+#footer h2{
+    color: #575757;
+    padding-bottom: 20px;
+} 
+#footer h2 span{
+    color: rgb(253, 79, 10);
+}  
+#footer p{
+    color: white;
+}
+ /**********************
+ Footer section css code end here 
+ **********************/
