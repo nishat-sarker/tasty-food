@@ -79,7 +79,7 @@ a{
     width: 75%;
     margin-bottom: 50px;
 }
-.banner-area .btn a{
+.btn a{
     color: rgb(255, 255, 255);
     background-image: linear-gradient(50deg, lightsalmon, tomato);
     padding: 15px 25px;
@@ -89,3 +89,47 @@ a{
 /*********************
  Banner section css style code end here 
  *********************/
+
+ .about-area{
+    background-image: url(../imgs/Frame\ 58.jpg);
+    width: 100%;
+}
+.about{
+    display: flex;
+}
+.about .about-img{
+    width: 50%;
+    margin-left: 5%;
+}
+.about .about-text{
+    width: 40%;
+    margin-right: 5%;
+}
+.about h2{
+    margin: 120px 0px 40px 0px;
+    font-size: 32px;
+    color: #575757;
+}
+.about p{
+    font-size: 18px;
+    color: #575757;
+    text-align: justify;
+    margin-bottom: 90px; 
+}
+
+#recipies-area{
+    padding: 60px 0px;
+}
+
+.recipies-item{
+    display: flex;
+    justify-content: space-between;
+}
+.recipies-item .recipies-item-1, .recipies-item-2 , .recipies-item-3{
+    width: 25%;
+    
+    padding: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 19px -5px rgb(92 92 92);
+}
