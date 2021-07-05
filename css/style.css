@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1420px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/*********************
+ Navber section css style code start from here 
+ *********************/
+#navber{
+    background-color: #fff4ed;
+    padding: 16px 0px;
+}
+#navber .nav{
+    display: flex;
+}
+#navber .logo-area{
+    width: 50%;
+}
+#navber .nav-option{
+    width: 50%;
+    text-align: right;
+}
+#navber ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 40px;
+}
+#navber ul a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+#navber ul{
+    margin-top: 26px;
+}
